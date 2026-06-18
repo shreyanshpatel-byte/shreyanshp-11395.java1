@@ -2,7 +2,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class SmartWarehouseLocator {
+public class Main {
 
     static class Location {
         int x;
