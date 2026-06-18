@@ -56,9 +56,9 @@ public class SmartWarehouseLocator {
         Location loadingDock = new Location(0, 0);
 
         System.out.println("--- Warehousing Items ---");
-        warehouse.storeItem("SKU-1001", 12, 45);
-        warehouse.storeItem("SKU-1002", 50, 10);
-        warehouse.storeItem("SKU-1003", 5, 88);
+        warehouse.storeItem("SP-01", 12, 45);
+        warehouse.storeItem("SP-02", 50, 10);
+        warehouse.storeItem("SP-03", 5, 88);
 
         System.out.println("\n--- Locating Item ---");
         String searchSku = "SKU-1002";
